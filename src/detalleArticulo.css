@@ -140,11 +140,11 @@ cambiar-imagen-detalle div:focus{
     height: 60%;
     margin-left: 40%;
     margin-top: 5%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     display: none;
+    background-repeat: no-repeat;
+    background-size: 200%;
 }
+
 
 #zoomLens {
     position: absolute;
