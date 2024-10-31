@@ -1,0 +1,20 @@
+{"articulos":[{
+    "id": 1, "nombre": "Articulo 1", "img":"./img/articulo1.jpg", 
+    "precio": 1111, "descripcion":"Descripcion del articulo 1"},
+    {"id": 2, "nombre": "Articulo 2", "img":"./img/articulo2.jpg", 
+    "precio": 2222, "descripcion":"Descripcion del articulo 2"},
+    {"id": 3, "nombre": "Articulo 3", "img":"./img/articulo3.jpg", 
+    "precio": 3333, "descripcion":"Description del articulo 3"},
+    {"id": 4, "nombre": "Articulo 4", "img":"./img/articulo4.jpg", 
+    "precio": 4444, "descripcion":"Descripcion del articulo 4"},
+    {"id": 5, "nombre": "Articulo 5", "img":"./img/articulo5.jpg", 
+    "precio": 5555, "descripcion":"Descripcion del articulo 5"},
+    {"id": 6, "nombre": "Articulo 6", "img":"./img/articulo6.jpg", 
+    "precio": 6666, "descripcion":"Descripcion del articulo 6"},
+    {"id": 7, "nombre": "Articulo 7", "img":"./img/articulo7.jpg", 
+    "precio": 7777, "descripcion":"Descripcion del articulo 7"},
+    {"id": 8, "nombre": "Articulo 8", "img":"./img/articulo8.jpg", 
+    "precio": 8888, "descripcion":"agregar 5 imagenes y la cantidad"}]}
+
+
+    
