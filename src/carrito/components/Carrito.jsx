@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import { SelectCantidadArticulos } from "./SelectCantidadArticulos";
 import { useEffect, useState } from "react";
 import { useCarritoStore } from "../../hooks/useCarritoStore";
+import { Navigate, useNavigate } from 'react-router-dom';
 
 
 export const Carrito = () => {
@@ -19,6 +20,8 @@ export const Carrito = () => {
   const { actualizarArticulosDelCarrito } = useCarritoStore();
 
   const { getCarrito } = useCarritoStore();
+  
+  const navigate = useNavigate();
 
   useEffect(()=>{
     if(carrito.articulos.length !== 0){
@@ -39,6 +42,9 @@ export const Carrito = () => {
       });
       setTotal(letTotal);
   };
+  const handlePago = () => {
+    navigate("/");
+  }
 
   const handleEliminar = ( articulo ) => {
      const jsonEliminar = {
@@ -120,7 +126,7 @@ export const Carrito = () => {
             <label>productos,</label><span id="total"> ${ total }</span> <span id="totalCheckeds">${ totalCheckeds }</span> 
           </div>
           <div className="div-pagar-carrito">
-            <input type="button" value="Proceder al pago"/>
+            <input type="button" onClick={ handlePago } value="Proceder al pago"/>
           </div>
         </div>
       </div>
